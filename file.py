@@ -7,7 +7,7 @@ Created on Thu Oct  8 08:40:06 2020
 """
 
 def func(a, b):
-    return a - b
+    return a * b
     
-print("tryig to make it work")
+        
 
