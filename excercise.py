@@ -13,4 +13,12 @@ def is_even(n) :
     else:
        return False
     
+#%%
+
+def is_odd(n) :
+    while n:
+        if n % 2 == 1 :
+            return True
+    else:
+       return False
     
