@@ -21,4 +21,16 @@ def is_odd(n) :
             return True
     else:
        return False
-    
+   
+#%% Factorial
+
+def factorial(n):
+    if n < 2:
+        return 1
+    return n * factorial(n-1)
+
+n= int(input("Input interger: "))
+print(factorial(n))
+
+
+
